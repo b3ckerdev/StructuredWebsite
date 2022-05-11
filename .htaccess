@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule (^|/)error_log$ - [L,R=404]
+
+RewriteRule ^$ index.php?page=homepage [L]
