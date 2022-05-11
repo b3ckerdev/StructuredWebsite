@@ -1,6 +1,6 @@
 <?php
 
-include("./src/init.php");
+include("./src/backend/init.php");
 
 $buyBots = new BuyBots();
 
